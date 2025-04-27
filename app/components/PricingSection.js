@@ -62,7 +62,7 @@ export default function PricingSection() {
   };
 
   return (
-    <section className="py-16 px-4 bg-white dark:bg-gray-900 transition-colors duration-200">
+    <section className="py-16 px-4 bg-white dark:bg-gray-900 transition-colors duration-200" id="precios">
       <div className="max-w-6xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

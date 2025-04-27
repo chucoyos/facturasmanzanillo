@@ -9,6 +9,7 @@ export default function HeroSection() {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
       className="py-20 px-4 max-w-6xl mx-auto text-center"
+      id="home"
     >
       <motion.div
         initial={{ y: -20 }}
