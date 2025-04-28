@@ -23,11 +23,12 @@ export default function ContactSection() {
           </p>
         </motion.div>
 
-        <div className="mb-12">
-          <ContactInfo />
-        </div>
         
         <ContactForm />
+
+        <div className="mt-12">
+          <ContactInfo />
+        </div>
       </div>
     </section>
   );
