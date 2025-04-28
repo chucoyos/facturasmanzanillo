@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import ContactForm from "./ContactForm";
+import ContactInfo from "./ContactInfo";
 
 export default function ContactSection() {
   return (
@@ -21,6 +22,10 @@ export default function ContactSection() {
             Nuestro equipo responderá en menos de 24 horas
           </p>
         </motion.div>
+
+        <div className="mb-12">
+          <ContactInfo />
+        </div>
         
         <ContactForm />
       </div>
