@@ -26,25 +26,25 @@ export default function PricingSection() {
     },
     {
       name: "100 Folios",
-      price: "$550",
+      price: "$600",
       description: "El mejor valor para negocios con alta facturación",
       recommended: true
     },
     {
       name: "200 Folios",
-      price: "$1,000",
+      price: "$1,060",
       description: "Para empresas con gran volumen de operaciones",
       recommended: false
     },
     {
       name: "500 Folios",
-      price: "$1,600",
+      price: "$1,800",
       description: "Paquete premium para empresas grandes",
       recommended: false
     },
     {
       name: "1,000 Folios",
-      price: "$2,800",
+      price: "$3,100",
       description: "Paquete completo para empresas con alta demanda",
       recommended: false
     },
